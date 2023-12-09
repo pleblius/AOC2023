@@ -24,7 +24,7 @@ def get_max(items):
     :param items: A list of integers
     :return: The largest item in the list
     """
-    max_count = 0
+    max_count = items[0]
 
     for item in items:
         if item > max_count:
@@ -39,7 +39,7 @@ def get_min(items):
     :param items: A list of integers
     :return: The smallest item in the list
     """
-    min_count = 0
+    min_count = items[0]
 
     for item in items:
         if item < min_count:
