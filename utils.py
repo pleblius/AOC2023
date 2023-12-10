@@ -8,7 +8,7 @@ def get_nums_from_string(string):
     :param string: The string to parse into ints
     :return: An ordered list of the integers that appear in string
     """
-    nums = re.findall("[0-9]+", string)
+    nums = re.findall("[-]?[0-9]+", string)
 
     ints = list()
     for num in nums:
